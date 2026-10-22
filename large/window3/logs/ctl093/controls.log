@@ -1,0 +1,14 @@
+src 093c0f649ca2f1f6 tabletest b15be287abaad7ce host aux-01 nproc 176 2026-10-21T12:24:58Z
+grid 10 5 24 control base: k= 6: C_k >= 8.9767702282e-04 | sum_{k=6..14} C_k >= 1.8160111797e-03   (N1 1
+grid 10 5 24 control noA3: k= 6: C_k >= 9.5048825431e-04 | sum_{k=6..14} C_k >= 1.9745803923e-03   (N1 1
+grid 10 5 24 control t1: k= 6: C_k >= 1.0728776048e-03 | sum_{k=6..14} C_k >= 2.2470567150e-03   (N1 1
+grid 10 5 24 control s1: k= 6: C_k >= 1.2639524205e-03 | sum_{k=6..14} C_k >= 2.6967493827e-03   (N1 1
+grid 10 5 24 control nohalf: k= 6: C_k >= 1.7953540456e-03 | sum_{k=6..14} C_k >= 3.6320223595e-03   (N1 1
+grid 20 10 48 control base: k= 6: C_k >= 1.3327442439e-03 | sum_{k=6..14} C_k >= 3.0126610277e-03   (N1 2
+grid 20 10 48 control noA3: k= 6: C_k >= 1.4064916884e-03 | sum_{k=6..14} C_k >= 3.2794176677e-03   (N1 2
+grid 20 10 48 control t1: k= 6: C_k >= 1.4847803715e-03 | sum_{k=6..14} C_k >= 3.4547895560e-03   (N1 2
+grid 20 10 48 control s1: k= 6: C_k >= 1.5924239896e-03 | sum_{k=6..14} C_k >= 3.7262530196e-03   (N1 2
+grid 20 10 48 control nohalf: k= 6: C_k >= 2.6654884878e-03 | sum_{k=6..14} C_k >= 6.0253220553e-03   (N1 2
+tabletest (30,15,72): TABLETEST grid 30 15 72 entries 3000 samples 2000: abar2 < mean-5se: 0 (min (abar2-mean)/se -1.31); LV3LO > mean+5se: 0 (min (mean-LV3LO)/se 3.39); abar3 < mean-5se: 0 (min (abar3-mean)/se -1.66; abar3 below abar2 in 844); S=1 entries 1174 with a violating sample: 0; T=1 entries 803 with a violating sample: 0
+float (20,10,48): k= 6: C_k >= 1.9089458087e-03 k= 7: C_k >= 1.1287349532e-03 k= 8: C_k >= 6.8843509411e-04 
+done 2026-10-21T12:49:28Z

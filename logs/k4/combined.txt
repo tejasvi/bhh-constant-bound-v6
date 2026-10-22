@@ -1,0 +1,4 @@
+combine: 16 shards, initial boxes covered 262144 of 262144 (complete); scored leaves 1992539492, arb-evaluated 1751885102, below 0.999 float 0
+float total (sum of float leaf values x pref) = 0.006370717
+CERTIFIED  C_k >= 0.0063707166
+certified, tighter valid 3b variant (extra info) C_k >= 0.0063707250

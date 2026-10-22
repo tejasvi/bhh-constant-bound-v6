@@ -1,0 +1,6 @@
+grid 4 2 8:
+300 trials (n = 2, 3): max-bound violations 0 (worst -1.00e+00), min-bound violations 0 (worst -1.00e+00); mean slack max 8.30e-03, min 1.55e-01
+grid 10 5 24:
+300 trials (n = 2, 3): max-bound violations 0 (worst -1.00e+00), min-bound violations 0 (worst -1.00e+00); mean slack max 4.55e-03, min 6.64e-02
+grid 20 10 48:
+300 trials (n = 2, 3): max-bound violations 0 (worst -1.00e+00), min-bound violations 0 (worst -1.00e+00); mean slack max 2.62e-03, min 3.40e-02

@@ -1,0 +1,57 @@
+name = "BHH"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["BHH"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+autoImplicit = false
+weak.linter.style.header = false
+
+# Toolchain leanprover/lean4:v4.35.0-rc3; Mathlib at tag v4.35.0-rc3 (commit c55e6e786f49, see lake-manifest.json).
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "BHH"
+globs = ["BHH.+"]
+
+# Computational code (core Lean only), compiled to native code so that `native_decide` runs compiled code.
+[[lean_lib]]
+name = "BHHCert"
+precompileModules = true
+
+[[lean_exe]]
+name = "bnbfloat"
+root = "BHHCert.FloatMainExe"
+
+[[lean_exe]]
+name = "exacttest"
+root = "BHHCert.ExactTest"
+
+[[lean_exe]]
+name = "uniontest"
+root = "BHHCert.UnionTest"
+
+[[lean_exe]]
+name = "benchtest"
+root = "BHHCert.BenchTest"
+
+[[lean_exe]]
+name = "bnbdriver"
+root = "BHHCert.DriverMain"
+
+[[lean_exe]]
+name = "treedriver"
+root = "BHHCert.TreeMain"
+
+[[lean_exe]]
+name = "leafdump"
+root = "BHHCert.LeafDump"
+
+[[lean_exe]]
+name = "profile"
+root = "BHHCert.Profile"

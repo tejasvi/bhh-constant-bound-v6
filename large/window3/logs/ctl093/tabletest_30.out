@@ -1,0 +1,1 @@
+TABLETEST grid 30 15 72 entries 3000 samples 2000: abar2 < mean-5se: 0 (min (abar2-mean)/se -1.31); LV3LO > mean+5se: 0 (min (mean-LV3LO)/se 3.39); abar3 < mean-5se: 0 (min (abar3-mean)/se -1.66; abar3 below abar2 in 844); S=1 entries 1174 with a violating sample: 0; T=1 entries 803 with a violating sample: 0

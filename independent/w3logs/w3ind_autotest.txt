@@ -1,0 +1,19 @@
+encoded states: 103 (start 0)
+k= 3: 8 input patterns (1 with val > 0): encoded != direct 0
+k= 4: 64 input patterns (22 with val > 0): encoded != direct 0
+k= 5: 512 input patterns (194 with val > 0): encoded != direct 0
+k= 6: 4096 input patterns (1458 with val > 0): encoded != direct 0
+k= 7: 32768 input patterns (10637 with val > 0): encoded != direct 0
+k= 8: 262144 input patterns (78465 with val > 0): encoded != direct 0
+k= 9: 2097152 input patterns (581185 with val > 0): encoded != direct 0
+k=10: 16777216 input patterns (4305165 with val > 0): encoded != direct 0
+Lemma 1, k=3: 8 graphs (4 connected): violations 0
+Lemma 1, k=4: 64 graphs (38 connected): violations 0
+Lemma 1, k=5: 1024 graphs (728 connected): violations 0
+Lemma 1, k=6: 32768 graphs (26704 connected): violations 0
+Lemma 1, k=7: 2097152 graphs (1866256 connected): violations 0
+states reachable after step 1: 2
+states reachable after step 2: 8
+states reachable after step 3: 33
+states reachable after step 4: 51
+states reachable after step 40: 99

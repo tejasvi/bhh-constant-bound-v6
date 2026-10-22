@@ -1,0 +1,7 @@
+import BHHCert.TreePar
+
+namespace BHH.Shards
+
+theorem k5_s01783 : (13149121060396531403941743526117737335287333344017692930993247612648911 : Int) ≤ BHH.Cert.shardNPar 5 8 2064660 2064661 := by native_decide
+
+end BHH.Shards

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, these logs or the Lean formalization, please cite the paper."
+title: "A lower bound of 0.6508 for the Beardwood-Halton-Hammersley constant"
+authors:
+  - family-names: Tomar
+    given-names: Tejasvi Singh
+    orcid: "https://orcid.org/0000-0003-4668-3639"
+license: Apache-2.0
+repository-code: "https://github.com/tejasvi/bhh-constant-bound-v6"
+doi: 10.5281/zenodo.23554485
+preferred-citation:
+  type: article
+  title: "A lower bound of 0.6508 for the Beardwood-Halton-Hammersley constant"
+  authors:
+    - family-names: Tomar
+      given-names: Tejasvi Singh
+      orcid: "https://orcid.org/0000-0003-4668-3639"
+  doi: 10.5281/zenodo.23554484
+  year: 2026

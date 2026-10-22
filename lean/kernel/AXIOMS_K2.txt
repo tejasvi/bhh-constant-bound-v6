@@ -1,0 +1,17 @@
+'BHH.mainBoundsK2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BHH.betaBoundK2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BHH.bhhBetaBoundK2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BHH.KSub2.K3.range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BHH.KSub2.K4.range' depends on axioms: [propext, Classical.choice, Quot.sound]
+BHH.mainBoundsK2 : BHH.MainBoundsK2
+BHH.betaBoundK2 : BHH.BetaBoundK2
+BHH.bhhBetaBoundK2 : BHH.BHHBetaBoundK2
+def BHH.MainBoundsK2 : Prop :=
+BHH.GreenFormula →
+  BHH.VertexLemmaSeg → ENNReal.ofReal (117130195 / 10 ^ 10) ≤ BHH.C 3 ∧ ENNReal.ofReal (59365909 / 10 ^ 10) ≤ BHH.C 4
+def BHH.BetaBoundK2 : Prop :=
+BHH.GreenFormula → BHH.VertexLemmaSeg → ∀ (β : ℝ), BHH.DongCaoK30 β → 6426496 / 10 ^ 7 ≤ β
+def BHH.BHHBetaBoundK2 : Prop :=
+BHH.GreenFormula →
+  BHH.VertexLemmaSeg →
+    (∀ (β : ℝ), BHH.IsBHHConstant β → BHH.DongCaoK30 β) → ∀ (β : ℝ), BHH.IsBHHConstant β → 6426496 / 10 ^ 7 ≤ β

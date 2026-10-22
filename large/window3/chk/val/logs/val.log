@@ -1,0 +1,30 @@
+start src ede9de74686690ee bin 39ff55cd8108c98e mc 17fe2a706baf3870 host aux-02 nproc 96 2026-10-21T12:06:30Z
+selftest 40: SELFTEST: 3000 entries x 2000 samples: worst z: AB2 -1.65 (>= -5), LV3 -2.98 (<= 5), AB3 -1.37 (>= -5), UUP -1.27, ULO 0.53; S=1 tested 1075, T=1 tested 398, range violations 0; BAD 0 2026-10-21T12:06:50Z
+rig 10: sum_{k=6..10} C_k >= 1.769937466871392e-03   (chk_w3: N1 10 N2 5 NT 24, dt 2^-3, T 6) 2026-10-21T12:07:05Z
+tables 20 saved: triple tables (slice 0/1): 243675000 entries in 205.3 s; far 52683433, T=1 31269573, Lemma V fallback 15687526, union undecided 0, min abar3 1.871e-02 2026-10-21T12:10:31Z
+rig 20: sum_{k=6..22} C_k >= 3.100996693850987e-03   (chk_w3: N1 20 N2 10 NT 48, dt 2^-3, T 6) 2026-10-21T12:15:35Z
+control grid 10 5 24 base:  |  2026-10-21T12:15:35Z
+control grid 10 5 24 ab3x:  |  2026-10-21T12:15:35Z
+control grid 10 5 24 lv3x:  |  2026-10-21T12:15:35Z
+control grid 10 5 24 tcent:  |  2026-10-21T12:15:35Z
+control grid 10 5 24 scent:  |  2026-10-21T12:15:35Z
+control grid 10 5 24 nohalf:  |  2026-10-21T12:15:35Z
+control grid 20 10 48 base: k= 6: C_k >= 1.348280810043777e-03 | sum_{k=6..14} C_k >= 3.073346522190355e-03    2026-10-21T12:18:30Z
+control grid 20 10 48 ab3x: k= 6: C_k >= 1.425375933709316e-03 | sum_{k=6..14} C_k >= 3.360184666318814e-03    2026-10-21T12:21:24Z
+control grid 20 10 48 lv3x:  |  2026-10-21T12:21:24Z
+control grid 20 10 48 tcent: k= 6: C_k >= 1.504872610007908e-03 | sum_{k=6..14} C_k >= 3.535175732014653e-03    2026-10-21T12:24:34Z
+control grid 20 10 48 scent: k= 6: C_k >= 1.613409476414014e-03 | sum_{k=6..14} C_k >= 3.808375676007584e-03    2026-10-21T12:27:29Z
+control grid 20 10 48 nohalf: k= 6: C_k >= 2.042220688596196e-03 | sum_{k=6..14} C_k >= 4.649894436942147e-03    2026-10-21T12:30:31Z
+mc done 2026-10-21T12:31:25Z
+control grid 10 5 24 base: k= 6: C_k >= 9.016891922518055e-04 | sum_{k=6..14} C_k >= 1.837664008611720e-03    2026-10-21T12:31:45Z
+control grid 10 5 24 ab3x: k= 6: C_k >= 9.555876145494573e-04 | sum_{k=6..14} C_k >= 2.002774156894703e-03    2026-10-21T12:32:06Z
+control grid 10 5 24 lv3x:  |  2026-10-21T12:32:08Z
+control grid 10 5 24 tcent: k= 6: C_k >= 1.087542150202667e-03 | sum_{k=6..14} C_k >= 2.303112181630912e-03    2026-10-21T12:32:26Z
+control grid 10 5 24 scent: k= 6: C_k >= 1.281293397226361e-03 | sum_{k=6..14} C_k >= 2.759387286162727e-03    2026-10-21T12:32:42Z
+control grid 10 5 24 nohalf: k= 6: C_k >= 1.403900825402522e-03 | sum_{k=6..14} C_k >= 2.854652167346544e-03    2026-10-21T12:33:01Z
+control grid 20 10 48 lv3x:  |  2026-10-21T12:33:12Z
+ablation src 7a4d6e1e4bc01d66 (diagnostic only: Lemma V with B bounded by A, i.e. no relative-displacement moments) 2026-10-21T12:33:14Z
+ablation lvx 10 (KMAX 10): k= 6: C_k >= 8.696907195563548e-04 | sum_{k=6..10} C_k >= 1.686922145811541e-03    2026-10-21T12:33:28Z
+ablation lvx 20 (KMAX 22): k= 6: C_k >= 1.324539542886578e-03 | sum_{k=6..22} C_k >= 3.013603069463822e-03    2026-10-21T12:42:01Z
+float 20 (NS 2): k= 6: C_k >= 1.906498381160277e-03 k= 7: C_k >= 1.126737820089250e-03 k= 8: C_k >= 6.869206622495169e-04  2026-10-21T12:51:04Z
+float 10 (NS 2): k= 6: C_k >= 1.877994506864048e-03 k= 7: C_k >= 1.104622228453479e-03 k= 8: C_k >= 6.700414076073531e-04  2026-10-21T12:51:18Z

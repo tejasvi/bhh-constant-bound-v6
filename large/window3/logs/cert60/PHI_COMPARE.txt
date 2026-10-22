@@ -1,0 +1,4 @@
+# PHI comparison: claim lines 960, instrumented lines 960
+# identical (exact string, k and j and %a mantissa and exponent): 960
+# different: 0; only in claim: 0; only in instrumented: 0
+# RESULT: BIT-IDENTICAL

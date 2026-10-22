@@ -1,0 +1,4 @@
+automaton (window-3 conn, own): 103 states
+pair tables: 85500 entries (Lemma V fallback 5775, union undecided 0)
+triple tables (slice 0/1): 243675000 entries in 205.3 s; far 52683433, T=1 31269573, Lemma V fallback 15687526, union undecided 0, min abar3 1.871e-02
+saved slice 0/1

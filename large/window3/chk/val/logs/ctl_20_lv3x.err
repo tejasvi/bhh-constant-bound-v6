@@ -1,0 +1,4 @@
+NEGATIVE CONTROL lv3x (INVALID, must raise the value)
+automaton (window-3 conn, own): 103 states
+pair tables: 85500 entries (Lemma V fallback 5775, union undecided 0)
+negative or invalid abar3 candidate -0.000243398 at (1,4,1,-19,47): abort

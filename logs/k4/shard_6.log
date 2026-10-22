@@ -1,0 +1,14 @@
+k=4 W0=0.4 WF=0.0005 EPS=1e-13 g=p-D  C_k lb=0.000964 (extra 0.000026)  lossdrop(est)=0.000020  scored=276466586 dropped=123787188 visited=645234384 threads=192 wall=150.7s
+  loss estimates: interior 0.000003 boundary 0.000012 straddle 0.000000 coincident 0.000001
+build 4e0b4290608754f2; initial boxes 262144 (ninit 262144), this run: [98304,114688) (SHARD: combine with --combine)
+own g table: 64 edge sets, mismatches vs box_ck14 table: 0; tables built in 0.0s
+prefactor 2 pi Gamma(k-1/2) (k-2)!/k! = [1.740102499009908701651506 +/- 3.81e-25]   (float 1.7401024990099083)
+scored leaves 276466586: skipped (float value 0) 22669745, rigorous fast zero 0, arb-evaluated 253796841, rigorous value 0: 0
+float total (sum of float leaf values x pref) = 0.000963905   [arb-evaluated leaves: 0.000963905]
+CERTIFIED  C_k >= 0.0009639048
+   ratio certified/float = 1.000000
+certified, tighter valid 3b variant (extra info: max with the expansion at A + Er) C_k >= 0.0009639068
+leaves with rigorous < 0.999 float: 0   (rigorous > 1.001 float: 0)
+diagnostics: edge-class/g differences vs float 0, vertex-count differences 0, |A_arb - A_float| > 1e-9: 0 (max 4.44e-15), max |Er_arb - Er_float| 2.22e-15, non-exact centres/widths 0; 3e (d^- = 0) leaves 1982837, 3e decision differences 0
+timing: wall 150.7s, threads 192, arb thread-seconds 21700.7, 85.5 us per arb-evaluated leaf, 104.69 us per scored leaf (wall*threads)
+SHARD k=4 W0=0.40000000000000002 WF=0.00050000000000000001 EPS=1e-13 ninit=262144 nb=262144 lo=98304 hi=114688 build=4e0b4290608754f2 mutate=none main_floor1e30=553935681032256536786154153 tight_floor1e30=553936818616474224643980398 flt_sum=0.00055393568103226419 scored=276466586 narb=253796841 nbelow=0

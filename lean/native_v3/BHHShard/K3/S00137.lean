@@ -1,0 +1,7 @@
+import BHHCert.Shard
+
+namespace BHH.Shards
+
+theorem k3_s00137 : (8552306232729212467082825310422342943256497501436357448255710945574111365 : Int) ≤ BHH.Cert.shardN 3 1863 1875 := by native_decide
+
+end BHH.Shards

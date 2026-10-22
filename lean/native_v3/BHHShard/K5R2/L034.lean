@@ -1,0 +1,64 @@
+import BHH.ShardChainR2
+import BHHShard.K5R2.S03422000
+import BHHShard.K5R2.S03422001
+import BHHShard.K5R2.S03422002
+import BHHShard.K5R2.S03422003
+import BHHShard.K5R2.S03422004
+import BHHShard.K5R2.S03422005
+import BHHShard.K5R2.S03422006
+import BHHShard.K5R2.S03422007
+import BHHShard.K5R2.S03422008
+import BHHShard.K5R2.S03422009
+import BHHShard.K5R2.S03422010
+import BHHShard.K5R2.S03422011
+import BHHShard.K5R2.S03422012
+import BHHShard.K5R2.S03422013
+import BHHShard.K5R2.S03422014
+import BHHShard.K5R2.S03422015
+import BHHShard.K5R2.S03422016
+import BHHShard.K5R2.S03422017
+import BHHShard.K5R2.S03422018
+import BHHShard.K5R2.S03422019
+import BHHShard.K5R2.S03422020
+import BHHShard.K5R2.S03422021
+import BHHShard.K5R2.S03422022
+import BHHShard.K5R2.S03422023
+import BHHShard.K5R2.S03422024
+import BHHShard.K5R2.S03422025
+import BHHShard.K5R2.S03422026
+import BHHShard.K5R2.S03422027
+import BHHShard.K5R2.S03422028
+import BHHShard.K5R2.S03422029
+import BHHShard.K5R2.S03422030
+import BHHShard.K5R2.S03422031
+import BHHShard.K5R2.S03422032
+import BHHShard.K5R2.S03422033
+import BHHShard.K5R2.S03422034
+import BHHShard.K5R2.S03422035
+import BHHShard.K5R2.S03422036
+import BHHShard.K5R2.S03422037
+import BHHShard.K5R2.S03422038
+import BHHShard.K5R2.S03423000
+import BHHShard.K5R2.S03423001
+import BHHShard.K5R2.S03423002
+import BHHShard.K5R2.S03423003
+import BHHShard.K5R2.S03423004
+import BHHShard.K5R2.S03423005
+import BHHShard.K5R2.S03423006
+import BHHShard.K5R2.S03423007
+import BHHShard.K5R2.S03423008
+import BHHShard.K5R2.S03423009
+import BHHShard.K5R2.S03423010
+import BHHShard.K5R2.S03423011
+import BHHShard.K5R2.S03423012
+import BHHShard.K5R2.S03423013
+import BHHShard.K5R2.S03423014
+import BHHShard.K5R2.S03430001
+import BHHShard.K5R2.S03431001
+
+namespace BHH.Shards
+
+theorem k5r2_l034 : (2433476261909769929549045923221537331353433110747605410979935838215992140 : Int) ≤ BHH.Cert.shardN5r2 557056 573440 :=
+  le_trans (le_of_eq (by norm_num)) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_add_le (by decide) (by decide) (BHH.shardN5r2_nonneg 557056 557568) (BHH.shardN5r2_nonneg 557568 558080)) (BHH.shardN5r2_nonneg 558080 558592)) (BHH.shardN5r2_nonneg 558592 559104)) (BHH.shardN5r2_nonneg 559104 559616)) (BHH.shardN5r2_nonneg 559616 560128)) (BHH.shardN5r2_nonneg 560128 560640)) (BHH.shardN5r2_nonneg 560640 561152)) (BHH.shardN5r2_nonneg 561152 561664)) (BHH.shardN5r2_nonneg 561664 562176)) (BHH.shardN5r2_nonneg 562176 562688)) (BHH.shardN5r2_nonneg 562688 563200)) (BHH.shardN5r2_nonneg 563200 563712)) (BHH.shardN5r2_nonneg 563712 564224)) (BHH.shardN5r2_nonneg 564224 564736)) (BHH.shardN5r2_nonneg 564736 565248)) (BHH.shardN5r2_nonneg 565248 565760)) (BHH.shardN5r2_nonneg 565760 566272)) (BHH.shardN5r2_nonneg 566272 566784)) (BHH.shardN5r2_nonneg 566784 567296)) (BHH.shardN5r2_nonneg 567296 567808)) (BHH.shardN5r2_nonneg 567808 568320)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422000)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422001)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422002)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422003)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422004)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422005)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422006)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422007)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422008)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422009)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422010)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422011)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422012)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422013)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422014)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422015)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422016)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422017)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422018)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422019)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422020)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422021)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422022)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422023)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422024)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422025)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422026)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422027)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422028)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422029)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422030)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422031)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422032)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422033)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422034)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422035)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422036)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422037)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03422038)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423000)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423001)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423002)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423003)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423004)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423005)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423006)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423007)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423008)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423009)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423010)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423011)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423012)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423013)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03423014)) (BHH.shardN5r2_nonneg 569344 569856)) (BHH.shardN5r2_nonneg 569856 570368)) (BHH.shardN5r2_nonneg 570368 570880)) (BHH.shardN5r2_nonneg 570880 571392)) (BHH.shardN5r2_nonneg 571392 571904)) (BHH.shardN5r2_nonneg 571904 572416)) (BHH.shardN5r2_nonneg 572416 572425)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03430001)) (BHH.shardN5r2_nonneg 572928 572939)) (BHH.le_shardN5r2_of_par BHH.Shards.k5r2_s03431001))
+
+end BHH.Shards

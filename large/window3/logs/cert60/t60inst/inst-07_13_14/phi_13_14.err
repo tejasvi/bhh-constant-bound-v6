@@ -1,0 +1,6 @@
+pair tables: 2324700 entries in 2.3 s
+triple tables loaded from slices (729000 triples)
+triple tables: 60047001000 entries in 446.9 s (far 0, Lemma V 0, fallback 0, T=1 0; half computed)
+abar3 range [0.00339143, 3.13843], NaN 0, T=1 entries 16945283109; abar2 range [0.00339143, 3.13843]
+t = 1.625 done (4867.0 s)
+t = 1.75 done (9676.5 s)

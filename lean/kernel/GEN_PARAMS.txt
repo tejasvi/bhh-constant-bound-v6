@@ -1,0 +1,19 @@
+The kernel-only proof K2: parameters of the generated modules under BHH/KSub2 (not shipped; regenerate them).
+
+Leaf function LkKf (BHHCert/ShardKf.lean; soundness BHH/LeafSound/FinalKf.lean). Initial boxes RNK2_3 = 12 (4,096 boxes)
+and RNK2_4 = 9 (512 boxes); decision contexts ctxK2_3 = Flt.mkCtx 3 0.1 0.0002 1e-12 and ctxK2_4 = Flt.mkCtx 4 0.4 0.002
+3e-10 (prefactor bits prefBitsN k; BHHCert/ShardK2.lean). The contexts only shape the trees; nothing in them is trusted.
+Cut parameter M = 25 leaves per kernel theorem.
+
+1. Cut data k3_all.txt (C_3, 4,096 initial boxes) and k4_all.txt (C_4, 512 initial boxes), published with the paper's
+   data compressed, as k3_all.txt.xz and k4_all.txt.xz (sha256 in kc2/RECORDS_SHA256); decompress them into kc2/ with
+   `xz -dk`; the sha256 of the uncompressed files are in kc2/UNCOMPRESSED_SHA256. They were written by the untrusted
+   generator BHHCert/KCutGen2.lean, which imports BHHCert/TreeKGen.lean (executable `kcut2`, see
+   lakefile_kcut2_snippet.toml): `kcut2 k a b 25` for consecutive ranges [a, b) of the initial boxes, the outputs
+   concatenated in box order. Per initial box: the tree code, the native leaf sums, and the cut at maximal subtrees of
+   at most M = 25 leaves.
+2. Modules: tools/gen_kcut.py, run from this directory with the two files in kc2/:
+     python3 tools/gen_kcut.py kc2/k3_all.txt 3 25 . --mod-leaves 400 --leaf LkKf --rconst RNK2_3 --nboxes 4096 --ns KSub2 --shard-import BHHCert.ShardK2 --noncomp
+     python3 tools/gen_kcut.py kc2/k4_all.txt 4 25 . --mod-leaves 400 --leaf LkKf --rconst RNK2_4 --nboxes 512 --ns KSub2 --shard-import BHHCert.ShardK2 --noncomp
+   This writes the 51,282 files listed in KSub2_SHA256SUMS (check with `sha256sum -c KSub2_SHA256SUMS`): 46,096 chunk
+   modules S*.lean, 2,592 Data and 2,592 Box modules (one each per initial box with leaves) and 2 Asm modules.

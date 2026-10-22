@@ -1,0 +1,2 @@
+tables built: NR 15 NT 24; triples with Lemma V below the fallback 581536, two-sided A3 used 2875509, T sure 749842 (half)
+20000 entries x 4000 samples (10000 with centroid sum < 1.6): abar2 violations 0 (max (mean - abar)/se 0.42), abar3 violations 0 (max 0.41); sure-class violations S 0 T 0; entries with abar3 < abar2: 4268 (mean gain 3.302e-01, mean abar3 - E v3 2.309e-01)

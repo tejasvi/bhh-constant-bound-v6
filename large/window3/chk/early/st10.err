@@ -1,0 +1,4 @@
+automaton (window-3 conn, own): 103 states
+pair tables: 10575 entries (Lemma V fallback 1415, union undecided 0)
+triple tables (slice 0/1): 7455375 entries in 3.6 s; far 1373510, T=1 740622, Lemma V fallback 979981, union undecided 0, min abar3 6.545e-02
+SELFTEST: 3000 entries x 2000 samples: worst z: AB2 2.18 (>= -5), LV3 -7.32 (<= 5), AB3 1.65 (>= -5), UUP 3.96, ULO -5.18; S=1 tested 1043, T=1 tested 309, range violations 0; BAD 0

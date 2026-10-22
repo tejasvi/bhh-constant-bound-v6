@@ -1,0 +1,80 @@
+27 2 minprod 0x1.7a18a5b435afap-50 sub 0 zero 0
+27 2 minprod 0x1.cb7f7af1d7e04p-75 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 2 rescale minpos/max 0x1.2d2b31d5b91efp-38 subnormal 0 flushed 0
+27 3 minprod 0x1.3d4777f801228p-62 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 3 rescale minpos/max 0x1.c1c263b364119p-52 subnormal 0 flushed 0
+27 4 minprod 0x1.03166701b3ce6p-75 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 4 rescale minpos/max 0x1.6c02e944fde1bp-57 subnormal 0 flushed 0
+27 5 minprod 0x1.a6ba849fb3de6p-81 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 5 rescale minpos/max 0x1.21fc89fe42d63p-62 subnormal 0 flushed 0
+27 6 minprod 0x1.5d52ba876f8ecp-86 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 6 rescale minpos/max 0x1.d752b9e3bf673p-74 subnormal 0 flushed 0
+27 7 minprod 0x1.2718191c03c7cp-98 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 7 rescale minpos/max 0x1.fecddb181f0c5p-65 subnormal 0 flushed 0
+27 8 minprod 0x1.4e201125c082p-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 8 rescale minpos/max 0x1.74b1f8a54a198p-62 subnormal 0 flushed 0
+27 9 minprod 0x1.018796bfca227p-86 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 9 rescale minpos/max 0x1.38879232152ep-65 subnormal 0 flushed 0
+27 10 minprod 0x1.d047fb8bf542dp-90 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 10 rescale minpos/max 0x1.1cede07952b6p-65 subnormal 0 flushed 0
+27 11 minprod 0x1.c45044962b66cp-90 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 11 rescale minpos/max 0x1.52ec653ddbb59p-65 subnormal 0 flushed 0
+27 12 minprod 0x1.1e68d9a6a422ap-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 12 rescale minpos/max 0x1.6008d1f42db46p-65 subnormal 0 flushed 0
+27 13 minprod 0x1.3bf88cf7b57cap-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 13 rescale minpos/max 0x1.57f12ebf0682ep-65 subnormal 0 flushed 0
+27 14 minprod 0x1.47603adc62ec9p-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 14 rescale minpos/max 0x1.52f4fd114e23dp-65 subnormal 0 flushed 0
+27 15 minprod 0x1.55ca727180891p-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 15 rescale minpos/max 0x1.4d736e3223c3p-65 subnormal 0 flushed 0
+27 16 minprod 0x1.63f6f73a776e8p-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 16 rescale minpos/max 0x1.48cad78354d11p-65 subnormal 0 flushed 0
+27 17 minprod 0x1.736a4715dac05p-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 17 rescale minpos/max 0x1.452311abc1133p-65 subnormal 0 flushed 0
+27 18 minprod 0x1.848a5492e962cp-89 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 18 rescale minpos/max 0x1.425c77513d397p-65 subnormal 0 flushed 0
+27 19 minprod 0x1.976efd507587p-90 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 19 rescale minpos/max 0x1.4050611687228p-65 subnormal 0 flushed 0
+27 20 minprod 0x1.ac21457b02428p-90 sub 0 zero 0 minK 0x1.371d7a72b245cp-25
+27 20 rescale minpos/max 0x1.3ed57a2c8f327p-65 subnormal 0 flushed 0
+# after j 27: min product 0x1.2718191c03c7cp-98 (log2 -97.795), min kernel 0x1.371d7a72b245cp-25, min entry/max 0x1.d752b9e3bf673p-74 (log2 -73.119), subnormal products 0, zero products 0, subnormal rescaled 0, flushed 0
+28 2 minprod 0x1.590ccaa318deep-51 sub 0 zero 0
+28 2 minprod 0x1.1b4303fdda6e2p-76 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 2 rescale minpos/max 0x1.f78a9cb5918bfp-40 subnormal 0 flushed 0
+28 3 minprod 0x1.3618cbc35640bp-64 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 3 rescale minpos/max 0x1.4a58cafcd4795p-53 subnormal 0 flushed 0
+28 4 minprod 0x1.a19a1cf4bd46ap-78 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 4 rescale minpos/max 0x1.09ee7c352f4f3p-58 subnormal 0 flushed 0
+28 5 minprod 0x1.3e52a333c2a5fp-83 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 5 rescale minpos/max 0x1.19654b6818dfdp-63 subnormal 0 flushed 0
+28 6 minprod 0x1.47c4b6c3876dp-88 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 6 rescale minpos/max 0x1.980d79e0107cp-75 subnormal 0 flushed 0
+28 7 minprod 0x1.d009d96ca9e34p-100 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 7 rescale minpos/max 0x1.b361ecb07a21bp-66 subnormal 0 flushed 0
+28 8 minprod 0x1.e5fb3dfcaeb23p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 8 rescale minpos/max 0x1.ca2099219cc75p-63 subnormal 0 flushed 0
+28 9 minprod 0x1.f84ef2c427e61p-88 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 9 rescale minpos/max 0x1.89fb475cf6a53p-66 subnormal 0 flushed 0
+28 10 minprod 0x1.acc53f467ffb6p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 10 rescale minpos/max 0x1.6b15be506c849p-66 subnormal 0 flushed 0
+28 11 minprod 0x1.8766819e7a9bep-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 11 rescale minpos/max 0x1.b364c760fe16dp-66 subnormal 0 flushed 0
+28 12 minprod 0x1.d18ac86056214p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 12 rescale minpos/max 0x1.c6606a5dcc5efp-66 subnormal 0 flushed 0
+28 13 minprod 0x1.e26d0e2a6aafap-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 13 rescale minpos/max 0x1.bcad4db29d7c8p-66 subnormal 0 flushed 0
+28 14 minprod 0x1.d5814262b0458p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 14 rescale minpos/max 0x1.b583d628d7d26p-66 subnormal 0 flushed 0
+28 15 minprod 0x1.cc9f2b4c3cc41p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 15 rescale minpos/max 0x1.adce8d0152e37p-66 subnormal 0 flushed 0
+28 16 minprod 0x1.c2de5cb2f8deep-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 16 rescale minpos/max 0x1.a74ea034ffa02p-66 subnormal 0 flushed 0
+28 17 minprod 0x1.ba377e465d881p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 17 rescale minpos/max 0x1.a23444cf19f2cp-66 subnormal 0 flushed 0
+28 18 minprod 0x1.b2ee9201973bcp-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 18 rescale minpos/max 0x1.9e5171db7cb1ep-66 subnormal 0 flushed 0
+28 19 minprod 0x1.acdd11076e855p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 19 rescale minpos/max 0x1.9b70892f1f05fp-66 subnormal 0 flushed 0
+28 20 minprod 0x1.a7d05ea550061p-91 sub 0 zero 0 minK 0x1.a450e72252037p-26
+28 20 rescale minpos/max 0x1.9958e93efce6bp-66 subnormal 0 flushed 0
+# after j 28: min product 0x1.d009d96ca9e34p-100 (log2 -99.142), min kernel 0x1.a450e72252037p-26, min entry/max 0x1.980d79e0107cp-75 (log2 -74.327), subnormal products 0, zero products 0, subnormal rescaled 0, flushed 0

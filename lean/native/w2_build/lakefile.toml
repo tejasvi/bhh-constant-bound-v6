@@ -1,0 +1,87 @@
+name = "W2"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["BHH", "W2"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+autoImplicit = false
+weak.linter.style.header = false
+
+# Toolchain leanprover/lean4:v4.35.0-rc3; Mathlib at tag v4.35.0-rc3 (commit c55e6e786f49, see lake-manifest.json),
+# the same as ../lakefile.toml. BHH/Defs.lean is the same file as in the box part.
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "BHH"
+globs = ["BHH.+"]
+
+[[lean_lib]]
+name = "W2"
+globs = ["W2.+"]
+
+# Computational code (core Lean only), compiled to native code so that `native_decide` runs compiled code.
+# BHHCert/Exact.lean and BHHCert/Union.lean are the same files as in the box part.
+[[lean_lib]]
+name = "BHHCert"
+precompileModules = true
+
+[[lean_lib]]
+name = "W2Cert"
+precompileModules = true
+
+[[lean_exe]]
+name = "w2bench"
+root = "W2Tools.Bench"
+
+[[lean_exe]]
+name = "fixtest"
+root = "W2Tools.FixTest"
+
+[[lean_exe]]
+name = "tabletest"
+root = "W2Tools.TableTest"
+
+[[lean_exe]]
+name = "passtest"
+root = "W2Tools.PassTest"
+
+[[lean_exe]]
+name = "rectest"
+root = "W2Tools.RecTest"
+
+[[lean_exe]]
+name = "tinttest"
+root = "W2Tools.TIntTest"
+
+[[lean_exe]]
+name = "fullrun"
+root = "W2Tools.FullRun"
+
+[[lean_lib]]
+name = "W2Test"
+globs = ["W2Test.+"]
+
+[[lean_exe]]
+name = "genshards"
+root = "W2Tools.GenShards"
+
+[[lean_lib]]
+name = "W2Tiny"
+globs = ["W2Tiny.+"]
+
+[[lean_exe]]
+name = "rec3test"
+root = "W2Tools.Rec3Test"
+
+[[lean_lib]]
+name = "W2TinyB"
+globs = ["W2TinyB.+"]
+
+[[lean_lib]]
+name = "W2Prod"
+globs = ["W2Prod.+"]
